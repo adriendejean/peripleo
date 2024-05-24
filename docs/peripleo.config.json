@@ -5,7 +5,7 @@
     {
       "name": "grammateus",
       "format": "LINKED_PLACES",
-      "src": "./data/data.json"
+      "src": "./data/byzantine.json"
     }
   ]
 }
