@@ -1,18 +1,21 @@
 {
-    "initial_bounds": [42.52251655126987, 14.716739659045327, 21.706422049269996, 43.04804241620454],
-    "map_style": "./map-style-OSM.json",
-    "data": [
-      {
-        "format": "LINKED_PLACES",
-        "src": "./data/data.json"
-      }
-    ],
-    "facets": [
-        {"name": "provenance", "path": ["properties", "provenance"]},
-        {"name": "region", "path": ["properties", "region"]},
-        {"name": "type", "path": ["properties", "type"]},
-        {"name": "subtype", "path": ["properties", "subtype"]},
-        {"name": "variation", "path": ["properties", "variation"]}
-    ]
-  }
-  
+  "initial_bounds": [38.3, 16.8, 19.5, 52.4],
+  "map_style": "https://api.maptiler.com/maps/outdoor/style.json?key=cqqmcLw28krG9Fl7V3kg",
+  "data": [
+    {
+      "name": "grammateus",
+      "format": "LINKED_PLACES",
+      "src": "./data/byzantine.lp.json"
+    }
+  ],
+  "facets": [
+      {"name": "nome", "path": ["properties", "nome"]},
+      {"name": "region", "path": ["properties", "region"]},
+      {"name": "provenance", "path": ["properties", "provenance"]},
+      {"name": "type", "path": ["properties", "type"]},
+      {"name": "subtype", "path": ["properties", "subtype"]},
+      {"name": "variation", "path": ["properties", "variation"]},
+      {"name": "centuries", "path": ["properties", "centuries"]}
+  ]
+}
+
