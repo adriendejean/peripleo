@@ -3,15 +3,7 @@
   "map_style": "./map-style-OSM.json",
   "data": [
     {
-      "name": "byzantine",
-      "format": "LINKED_PLACES",
-      "src": "./data/byzantine.json"
-    },
-    {
-      "name": "phase1",
-      "format": "LINKED_PLACES",
-      "src": "./data/phase1.json"
-    }
+      "name": "byzantine", "format": "LINKED_PLACES", "src": "./data/byzantine_noise.json"}
   ],
   "facets": [
     {"name": "nome", "path": ["properties", "nome"]},
