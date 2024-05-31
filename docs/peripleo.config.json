@@ -3,9 +3,14 @@
   "map_style": "./map-style-OSM.json",
   "data": [
     {
-      "name": "grammateus",
+      "name": "byzantine",
       "format": "LINKED_PLACES",
       "src": "./data/byzantine.json"
+    },
+    {
+      "name": "phase1",
+      "format": "LINKED_PLACES",
+      "src": "./data/phase1.json"
     }
   ],
   "facets": [
